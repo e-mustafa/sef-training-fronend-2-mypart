@@ -137,7 +137,7 @@ function ForgetPasswordCard() {
 	};
 
 	return (
-		<div className="Login__card">
+		<div className="Login__card  pt-5 mt-5">
 			<div className="p-4 shadow-lg position-relative bg-black bg-opacity-25 rounded-3">
 				<div className="login_logo text-center mb-5">
 					<img

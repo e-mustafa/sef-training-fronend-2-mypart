@@ -107,7 +107,7 @@ function NewCreateCVPage() {
 					<CreateCVStipper />
 				</section>
 				<section className="container">
-					<div className="row create-cv p-3 bg_black-opc my-4 mx-0 p-0 p-lg-4 rounded ">
+					<div className="row create-cv p-3 bg-black bg-opacity-25 my-4 mx-0 p-0 p-lg-4 rounded ">
 						<div className="col-12 col-lg-6 p-0 px-lg-3">
 							{/* forms part ---------------------------------------------- */}
 							<Outlet

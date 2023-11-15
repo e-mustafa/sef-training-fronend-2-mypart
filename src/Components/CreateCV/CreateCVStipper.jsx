@@ -24,7 +24,7 @@ function CreateCVStipper({ data }) {
 	};
 
 	return (
-		<div className="stepper-container bg_black-opc py-7 px-7 rounded">
+		<div className="stepper-container bg-black bg-opacity-25 py-7 px-7 rounded">
 			<Swiper
 				slidesPerView={'auto'}
 				spaceBetween={30}
