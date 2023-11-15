@@ -14,6 +14,7 @@ import Links8Form from './Components/CreateCV/Links8Form';
 import HobbiesAndInterests7Form from './Components/CreateCV/HobbiesAndInterests7Form';
 import LoginPage from './Pages/Auth/loginPage';
 import ResetPasswordPage from './Pages/Auth/resetPasswordPage';
+import TopHeader from './Components/Header/TopHeader';
 
 function App() {
 	return (
@@ -23,17 +24,13 @@ function App() {
 				<Route path="/auth/reset-password" element={<ResetPasswordPage />} />
 			</Routes>
 
-			{/* {isLogin ? <userHeader /> : <visitorHeader />}  */}
+			<TopHeader />
 			{/* <navbar /> */}
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/instructor" element={<InstructorPortalPage />} />
 				<Route path="/student" element={<StudentPortalPage />} />
 				<Route path="/admin-panel/jobs" element={<AdminPanelJobs />} />
-
-
-
-
 
 				{/* {create cv routes ----------------------------------------} */}
 				<Route path="/jobs/create-cv/" element={<MainCreateCV />}>
@@ -46,7 +43,10 @@ function App() {
 					<Route path="summary" element={<Summary2Form />} />
 					<Route path="skills" element={<Skills3Form />} />
 					<Route path="honers-and-awards" element={<HonersAndAwards6Form />} />
-					<Route path="hobbies-and-interests" element={<HobbiesAndInterests7Form />} />
+					<Route
+						path="hobbies-and-interests"
+						element={<HobbiesAndInterests7Form />}
+					/>
 					<Route path="experience" element={<Experience4Form />} />
 					<Route path="education" element={<Education5Form />} />
 					<Route path="links" element={<Links8Form />} />
