@@ -18,6 +18,14 @@
 .stepper-container .swiper-slide {
 	width: 230px !important ;
 }
+.step-button.createcv-active {
+	background-color: var(--primary);
+	box-shadow: var(--bs-btn-active-shadow);
+}
+.createcv-active:hover {
+	background-color: var(--primary-light);
+	box-shadow: var(--bs-btn-active-shadow);
+}
 
 /* .stepper-container .step {
 	flex: 1 0 230px;
@@ -265,6 +273,15 @@
 /* -------------------------------- Create CV template ----------------------------- */
 
 /* cv-part-1 ----------------------- */
+/* .cv-part-1 {
+	min-width: 670px; 
+	min-width: 100%;
+	max-width: 100%;
+	overflow-y: hidden;
+	min-height: 100%;
+	aspect-ratio: 1/1.4142;
+	size: a4;
+} */
 .cv-part-1 {
 	min-width: 670px;
 	max-width: 100%;
